@@ -1,0 +1,7 @@
+applications:
+- name: 04springodata
+  path: target/04springodata-0.0.1-SNAPSHOT.war
+  buildpack: java_buildpack
+  memory: 1024M
+  services:
+  - mysql
